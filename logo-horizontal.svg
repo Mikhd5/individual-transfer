@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 116" role="img" aria-labelledby="title desc">
+  <title id="title">Individual Transfer</title>
+  <desc id="desc">Мінімалістичний знак дороги та автомобіля з назвою Individual Transfer</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe4a1"/><stop offset=".48" stop-color="#eab85c"/><stop offset="1" stop-color="#b87924"/></linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#c9ced0"/></linearGradient>
+  </defs>
+  <g transform="translate(3 7)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 86C22 54 44 26 83 15c15-4 30-3 43 3" stroke="url(#gold)" stroke-width="5"/>
+    <path d="M20 91C37 64 56 47 83 40c14-4 28-3 41 2" stroke="#f4f1e9" stroke-opacity=".9" stroke-width="2.2"/>
+    <path d="M47 78h65c8 0 14-4 18-12l-8-3-7-13c-2-4-5-6-10-6H79c-5 0-9 2-12 7L57 63h-9c-4 0-7 3-7 7v8h6" stroke="url(#silver)" stroke-width="3.2"/>
+    <path d="M68 62l7-12c1-2 3-3 6-3h23c3 0 5 1 7 4l6 11" stroke="url(#gold)" stroke-width="2.4"/>
+    <path d="M56 78a7 7 0 1 0 14 0m34 0a7 7 0 1 0 14 0" stroke="url(#silver)" stroke-width="3.2"/>
+    <path d="M8 100h117" stroke="url(#gold)" stroke-width="2.5"/>
+  </g>
+  <g font-family="Manrope, Arial, sans-serif" font-weight="800">
+    <text x="150" y="54" font-size="37" letter-spacing=".4" fill="url(#silver)">INDIVIDUAL</text>
+    <text x="150" y="88" font-size="30" letter-spacing="2.7" fill="url(#gold)">TRANSFER</text>
+    <text x="151" y="108" font-size="9.5" font-weight="600" letter-spacing="3.05" fill="#b9bfc0">ІНДИВІДУАЛЬНІ ПОЇЗДКИ</text>
+  </g>
+</svg>
