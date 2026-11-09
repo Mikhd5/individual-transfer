@@ -225,3 +225,19 @@ button:disabled{cursor:not-allowed;opacity:.65}
   html:not(.js-enabled) .nav{position:static;display:flex;flex-direction:row;flex-wrap:wrap;gap:10px 18px;transform:none;opacity:1;pointer-events:auto;padding:8px 0 12px;background:transparent;border:0;max-height:none;overflow:visible}
   html:not(.js-enabled) .nav a{padding:5px 0;font-size:12px}
 }
+
+
+/* Four-country layouts: balanced on desktop and cleanly stacked on touch screens. */
+.service-grid--four{grid-template-columns:repeat(4,minmax(0,1fr))}
+.destination-grid--four{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:1100px){
+  .service-grid--four,.destination-grid--four{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .service-grid--four .service-card:last-child{grid-column:auto}
+  .destination-grid--four .destination-card:last-child{grid-column:auto;height:270px}
+}
+@media(max-width:560px){
+  .service-grid--four,.destination-grid--four{grid-template-columns:1fr}
+  .service-grid--four .service-card:last-child,.destination-grid--four .destination-card:last-child{grid-column:auto}
+  .destination-grid--four .destination-card:last-child{height:230px}
+  .site-loader__caption{font-size:7px;letter-spacing:.13em;white-space:nowrap}
+}
